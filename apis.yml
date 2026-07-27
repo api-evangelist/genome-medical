@@ -1,8 +1,12 @@
 aid: genome-medical
 name: Genome Medical
-description: Genome Medical is a company surfaced as a portfolio company of canaan-partners, gv and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Genome Medical is a telehealth-enabled genetic services provider offering expert genetic
+  counseling, test selection and ordering support, results interpretation, and clinical trial matching
+  for individuals with rare and hereditary conditions. It partners with health systems, life sciences
+  organizations, and genetic testing labs to scale genetic care, reduce diagnostic backlogs, and
+  accelerate diagnoses through a proprietary clinical platform and patient portal. Genome Medical does
+  not currently publish a public developer API; this profile captures its identity, security posture,
+  and public web properties for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/genome-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +15,29 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.genomemedical.com/wp-content/uploads/2023/03/Fbook.jpg
 tags:
 - Company
+- Healthcare
+- Genomics
+- Genetic Counseling
+- Telehealth
+- Precision Medicine
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +46,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://genomemedical.com
+  url: https://www.genomemedical.com
+- type: Support
+  url: https://www.genomemedical.com/contact-us/
+- type: Blog
+  url: https://www.genomemedical.com/category/all/
+- type: TermsOfService
+  url: https://www.genomemedical.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://portal.genomemedical.com/privacy
+- type: Login
+  url: https://portal.genomemedical.com
+- type: TrustCenter
+  url: https://trust.genomemedical.com
+- type: DomainSecurity
+  url: security/genome-medical-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

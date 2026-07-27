@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.genomemedical.com
+url: https://trust.genomemedical.com
+# Trust center is a JavaScript-rendered SafeBase/Vanta-style portal returning HTTP 200
+# with the document title "Genome Medical Trust Center". Specific named certifications
+# (e.g. SOC 2 / HIPAA) could not be verified from the raw HTML and are intentionally
+# left empty rather than fabricated.
+certifications: []
+evidence:
+- source: https://trust.genomemedical.com
+  status: 200
+  keywords:
+  - trust center
